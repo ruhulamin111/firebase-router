@@ -1,17 +1,18 @@
-import { getAuth } from "firebase/auth";
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
+
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyD2Z2gyHNYvLm3w-iseu6Tqyy9WEqTfHXw",
-    authDomain: "fir-router-a23eb.firebaseapp.com",
-    projectId: "fir-router-a23eb",
-    storageBucket: "fir-router-a23eb.appspot.com",
-    messagingSenderId: "1000090574957",
-    appId: "1:1000090574957:web:395ca262f12ce93a22df64"
+    apiKey: "AIzaSyDLsqV7i4taSng4Uk-eEyab1Dz8lY6QVaY",
+    authDomain: "fir-router-eb99e.firebaseapp.com",
+    projectId: "fir-router-eb99e",
+    storageBucket: "fir-router-eb99e.appspot.com",
+    messagingSenderId: "168210045219",
+    appId: "1:168210045219:web:b2f3d89f4d16dc41d05496"
 };
 
 // Initialize Firebase
