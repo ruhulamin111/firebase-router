@@ -4,7 +4,6 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../firebase.init';
 // import useFirebase from "../../hooks/useFirebase";
 
-
 const SignIn = () => {
     // const { googleSignIn } = useFirebase();
     const [googleSignIn, user] = useSignInWithGoogle(auth)
